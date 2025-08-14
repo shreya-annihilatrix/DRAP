@@ -1,0 +1,348 @@
+/* Main container styles */
+.a123b4567890123 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .a123b4567890124 {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #4e67c8;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .a123b4567890125 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .a123b4567890126 {
+    flex: 1;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .a123b4567890127 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+  }
+  
+  /* Header styles */
+  .a123b4567890128 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  
+  .a123b4567890129 {
+    color: #4e67c8;
+    margin-right: 0.5rem;
+  }
+  
+  .a123b4567890130 {
+    color: #333;
+  }
+  
+  /* Empty state styles */
+  .a123b4567890131 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+  }
+  
+  .a123b4567890132 {
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .a123b4567890133 {
+    width: 80px;
+    height: 80px;
+    fill: #4e67c8;
+    margin-bottom: 1rem;
+  }
+  
+  .a123b4567890134 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .a123b4567890135 {
+    color: #6c757d;
+  }
+  
+  /* Shelter cards container */
+  .a123b4567890136 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Shelter card styles */
+  .a123b4567890137 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .a123b4567890137:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .a123b4567890138 {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .a123b4567890139 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .a123b4567890140 {
+    width: 24px;
+    height: 24px;
+    fill: #4e67c8;
+    margin-right: 0.75rem;
+  }
+  
+  .a123b4567890141 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Detail sections */
+  .a123b4567890142 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .a123b4567890143 {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+  
+  .a123b4567890144 {
+    width: 18px;
+    height: 18px;
+    fill: #6c757d;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+  }
+  
+  /* Action buttons */
+  .a123b4567890145 {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .a123b4567890146 {
+    display: flex;
+    align-items: center;
+    background-color: #4e67c8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .a123b4567890146:hover {
+    background-color: #3b50a0;
+  }
+  
+  .a123b4567890147 {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    margin-right: 0.5rem;
+  }
+  
+  /* Footer styles */
+  .ft1234567890 {
+    padding: 1.5rem;
+    background-color: #4e67c861;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+  }
+    
+  .cp1234567890 {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+
+  /* Mark Completion Button */
+.a123b4567890148 {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  margin-left: 10px; /* Space from Add/Delete button */
+}
+
+.a123b4567890148:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.a123b4567890148:active {
+  transform: translateY(0);
+}
+
+/* Checkmark icon in the button */
+.a123b4567890149 {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
+
+/* Button container - update existing if needed */
+.a123b4567890145 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+
+  
+
+} */
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .a123b4567890126 {
+      padding: 1rem;
+    }
+    .a123b4567890145 {
+      flex-direction: column;
+    }
+    
+    .a123b4567890127 {
+      padding: 1.5rem;
+    }
+    
+    .a123b4567890136 {
+      grid-template-columns: 1fr;
+    }
+    .a123b4567890148 {
+      margin-left: 0;
+      margin-top: 10px;
+      width: 100%;
+      justify-content: center;
+    }
+    .a123b4567890145 {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .a123b4567890148,
+    .a123b4567890146 {
+      margin-left: 0;
+      margin-top: 10px;
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .a123b4567890150 {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .a123b4567890128 {
+      font-size: 1.5rem;
+    }
+    
+    .a123b4567890137 {
+      border-radius: 6px;
+    }
+    
+    .a123b4567890138 {
+      padding: 1rem;
+    }
+    
+    .a123b4567890145 {
+      padding: 0.75rem 1rem;
+    }
+  }
+
+  /* Completed status display */
+.a123b4567890150 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background-color: #e8f5e9; /* Light green background */
+  color: #2e7d32; /* Dark green text */
+  border-radius: 5px;
+  font-weight: 600;
+  border: 1px solid #c8e6c9;
+}
+
+.a123b4567890151 {
+  width: 18px;
+  height: 18px;
+  fill: #2e7d32; /* Dark green checkmark */
+}
+
+/* Update button container to handle both buttons and status */
+.a123b4567890145 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  gap: 10px;
+  align-items: center;
+  min-height: 40px; /* Ensure consistent height */
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+
+} */

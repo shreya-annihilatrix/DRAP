@@ -1,0 +1,346 @@
+/* Main Container */
+.a12345678b9012 {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Content */
+.b22345678b9012 {
+  flex: 1;
+  padding: 2rem;
+  margin: 50px;
+}
+
+.c32345678b9012 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Headings */
+.d42345678b9012 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+/* Messages */
+.e52345678b9012 {
+  color: #e74c3c;
+  background-color: #fde8e8;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #e74c3c;
+}
+
+.f62345678b9012 {
+  color: #27ae60;
+  background-color: #e7f7e7;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #2ecc71;
+}
+
+/* Filter Section */
+.g72345678b9012 {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.h82345678b9012 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.i92345678b9012 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.j02345678b9012, .m32345678b9012, .p62345678b9012 {
+  display: flex;
+  flex-direction: column;
+}
+
+.k12345678b9012, .n42345678b9012, .q72345678b9012 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #34495e;
+  font-size: 0.875rem;
+}
+
+.l22345678b9012, .o52345678b9012, .r82345678b9012 {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.l22345678b9012:focus, .o52345678b9012:focus, .r82345678b9012:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.s92345678b9012 {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-end;
+  grid-column: 1 / -1;
+}
+
+.s92345678b9012:hover {
+  background-color: #5a6268;
+}
+
+/* Loading State */
+.t02345678b9012 {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Summary Cards */
+.u12345678b9012 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.v22345678b9012, .y52345678b9012, .b82345678b9012 {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.w32345678b9012, .z62345678b9012, .c92345678b9012 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.x42345678b9012, .a72345678b9012, .d02345678b9012 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.a72345678b9012 {
+  color: #e67e22;
+}
+
+.d02345678b9012 {
+  color: #2ecc71;
+}
+
+/* Contributions List */
+.e12345678b9012 {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.f22345678b9012 {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.g32345678b9012 {
+  margin-bottom: 1rem;
+}
+
+.h42345678b9012 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.i52345678b9012 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.j62345678b9012, .k72345678b9012 {
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}
+
+/* Status Labels */
+.a12345678b9012-status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.a12345678b9012-status-verified {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.a12345678b9012-status-unknown {
+  background-color: #e2e3e5;
+  color: #383d41;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Shelter Info */
+.l82345678b9012 {
+  margin-bottom: 1rem;
+}
+
+.m92345678b9012 {
+  color: #34495e;
+  font-size: 0.875rem;
+}
+
+/* Resources Table */
+.n02345678b9012 {
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.o12345678b9012 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.o12345678b9012 th {
+  background-color: #f8f9fa;
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.o12345678b9012 td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+  color: #495057;
+}
+
+.o12345678b9012 tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Contributor Info */
+.p22345678b9012 {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.q32345678b9012, .r42345678b9012, .s52345678b9012 {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #495057;
+}
+
+/* Verify Button */
+.t62345678b9012 {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.u72345678b9012 {
+  background-color: #28a745;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.u72345678b9012:hover {
+  background-color: #218838;
+}
+
+/* No Contributions Message */
+.v82345678b9012 {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.w92345678b9012 {
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Access Denied */
+.x02345678b9012 {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.y12345678b9012 {
+  color: #6c757d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .b22345678b9012 {
+      margin-left: 0;
+      padding: 1rem;
+  }
+
+  .i92345678b9012 {
+      grid-template-columns: 1fr;
+  }
+
+  .o12345678b9012 {
+      display: block;
+      overflow-x: auto;
+  }
+
+  .u12345678b9012 {
+      grid-template-columns: 1fr;
+  }
+}

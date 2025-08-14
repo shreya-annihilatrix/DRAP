@@ -1,0 +1,306 @@
+/* Main Container */
+.a12345b6789012 {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Content */
+.b22345b6789012 {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 50px;
+}
+
+.c32345b6789012 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Headings */
+.d42345b6789012 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+/* Error Message */
+.e52345b6789012 {
+  color: #e74c3c;
+  background-color: #fde8e8;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #e74c3c;
+}
+
+/* Campaign Selection Section */
+.f62345b6789012 {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.g72345b6789012 {
+  margin-bottom: 2rem;
+}
+
+.i92345b6789012 {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.j02345b6789012 {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.j02345b6789012:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* Loading Message */
+.k12345b6789012 {
+  text-align: center;
+  padding: 1rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Table Container */
+.l22345b6789012 {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+}
+
+/* Table Styles */
+.m32345b6789012 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.n42345b6789012 {
+  background-color: #3498db;
+  color: white;
+}
+
+.o52345b6789012 th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+.p62345b6789012, .q72345b6789012, .r82345b6789012, .s92345b6789012, .t02345b6789012, .u12345b6789012 {
+  font-weight: 500;
+}
+
+.v22345b6789012 tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.w32345b6789012:hover {
+  background-color: #f1f8fe;
+}
+
+.x42345b6789012, .y52345b6789012, .z62345b6789012, .a72345b6789012, .b82345b6789012, .e12345b6789012 {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Status Badges */
+.c92345b6789012 {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.d02345b6789012-paid {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.d02345b6789012-pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.d02345b6789012-failed {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* View Details Button */
+.f22345b6789012 {
+  background-color: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.f22345b6789012:hover {
+  background-color: #2980b9;
+}
+
+/* No Donations Message */
+.g32345b6789012 {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Donation Details Section */
+.h42345b6789012 {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.i52345b6789012 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.j62345b6789012 {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.k72345b6789012 {
+  margin-bottom: 1.5rem;
+}
+
+.l82345b6789012 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Detail Rows */
+.m92345b6789012, .p22345b6789012, .s52345b6789012, .v82345b6789012 {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.n02345b6789012, .q32345b6789012, .t62345b6789012, .w92345b6789012 {
+  font-weight: 500;
+  color: #34495e;
+  width: 150px;
+}
+
+.o12345b6789012, .r42345b6789012, .u72345b6789012, .x02345b6789012 {
+  flex: 1;
+}
+
+/* Back Button */
+.y12345b6789012 {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.y12345b6789012:hover {
+  background-color: #5a6268;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .b22345b6789012 {
+      margin-left: 0;
+      padding: 1rem;
+  }
+
+  .m32345b6789012 {
+      display: block;
+  }
+
+  .n42345b6789012 {
+      display: none;
+  }
+
+  .w32345b6789012 {
+      display: block;
+      margin-bottom: 1rem;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      padding: 1rem;
+  }
+
+  .x42345b6789012, .y52345b6789012, .z62345b6789012, .a72345b6789012, .b82345b6789012, .e12345b6789012 {
+      display: block;
+      padding: 0.5rem 0;
+      text-align: right;
+      position: relative;
+  }
+
+  .x42345b6789012::before, 
+  .y52345b6789012::before, 
+  .z62345b6789012::before, 
+  .a72345b6789012::before, 
+  .b82345b6789012::before, 
+  .e12345b6789012::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0.5rem;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .x42345b6789012 {
+      background-color: #3498db;
+      color: white;
+      border-radius: 4px 4px 0 0;
+      padding-left: 0.5rem;
+  }
+
+  .e12345b6789012 {
+      border-radius: 0 0 4px 4px;
+      text-align: center;
+  }
+
+  .e12345b6789012::before {
+      display: none;
+  }
+
+  /* Detail rows in mobile */
+  .m92345b6789012, .p22345b6789012, .s52345b6789012, .v82345b6789012 {
+      flex-direction: column;
+  }
+
+  .n02345b6789012, .q32345b6789012, .t62345b6789012, .w92345b6789012 {
+      width: 100%;
+      margin-bottom: 0.5rem;
+  }
+}

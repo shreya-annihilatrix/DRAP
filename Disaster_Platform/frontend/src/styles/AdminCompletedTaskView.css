@@ -1,0 +1,370 @@
+/* Main container */
+.a143256b67456 {
+  display: flex;
+  background: url('../images/image8.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main content area */
+.a143256b67457 {
+  flex: 1;
+  padding: 30px;
+  background: rgba(68, 90, 84, 0.788);
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+/* Content wrapper */
+.a143256b67458 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title */
+.a143256b67459 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Task filter container */
+.a143256b67460 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.a143256b67460 label {
+  font-weight: 500;
+  color: #34495e;
+}
+
+.a143256b67460 select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* Loading indicator */
+.a143256b67461 {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+/* Status classes */
+.a143256b67462 {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+.a143256b67463 {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.a143256b67464 {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.a143256b67465 {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.a143256b67466 {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+/* Task details container */
+.a143256b67467 {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #3498db;
+}
+
+/* No tasks message */
+.a143256b67468 {
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+/* Tasks list container */
+.a143256b67469 {
+  margin-top: 20px;
+}
+
+/* Individual task card */
+.a143256b67470 {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.a143256b67470:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Task card header */
+.a143256b67471 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+}
+
+.a143256b67471 h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Task status badge */
+.a143256b67472 {
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Task content container */
+.a143256b67473 {
+  padding: 15px;
+}
+
+/* Task description */
+.a143256b67474 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+/* Incident details section */
+.a143256b67475 {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: rgba(52, 152, 219, 0.1);
+  border-radius: 6px;
+}
+
+.a143256b67475 h4, .a143256b67476 h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+/* Volunteer details section */
+.a143256b67476 {
+  padding: 15px;
+  background-color: rgba(46, 204, 113, 0.1);
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Verification section */
+.a143256b67477 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Verify button */
+.a143256b67478 {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.a143256b67478:hover {
+  background-color: #2ecc71;
+}
+
+.a143256b67478:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Feedback button */
+.a143256b67479 {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.a143256b67479:hover {
+  background-color: #2980b9;
+}
+
+/* Feedback info container */
+.a143256b67480 {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* Submitted feedback style */
+.a143256b67481 {
+  background-color: #d4edda;
+  color: #155724;
+  border-left: 4px solid #28a745;
+}
+
+/* Feedback status */
+.a143256b67482 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Feedback check icon */
+.a143256b67483 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Feedback viewed badge */
+.a143256b67484 {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 8px;
+  background-color: #17a2b8;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Verification note */
+.a143256b67485 {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin: 5px 0 0 0;
+}
+
+/* Alert messages */
+.alert {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .a143256b67458 {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .a143256b67457 {
+    padding: 15px 10px;
+  }
+  
+  .a143256b67459 {
+    font-size: 24px;
+  }
+  
+  .a143256b67471 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .a143256b67472 {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .a143256b67457 {
+    padding: 10px 5px;
+  }
+  
+  .a143256b67458 {
+    padding: 10px;
+  }
+  
+  .a143256b67459 {
+    font-size: 20px;
+  }
+  
+  .a143256b67460 {
+    padding: 10px;
+  }
+  
+  .a143256b67473 {
+    padding: 10px;
+  }
+  
+  .a143256b67475, .a143256b67476, .a143256b67467 {
+    padding: 10px;
+  }
+  
+  .a143256b67477 {
+    padding: 15px 10px;
+  }
+  
+  .a143256b67478, .a143256b67479 {
+    width: 100%;
+  }
+}

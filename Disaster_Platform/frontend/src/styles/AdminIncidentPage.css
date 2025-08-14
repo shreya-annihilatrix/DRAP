@@ -1,0 +1,95 @@
+/* Container for the entire page */
+.A1234567Z {
+  display: flex;
+  background: #f4f4f4;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content section */
+.B1234567N {
+  flex: 1;
+  padding: 30px;
+  background: #ffffff;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Page Title */
+.C1234567L {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Grid layout for cards */
+.D1234567M {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Card style */
+.E1234567Q, .G1234567R, .I1234567S, .K1234567T, .M1234567U {
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border: 3px solid;
+}
+
+/* Color themes */
+.blue { background: #e3f2fd; border-color: #1e88e5; color: #1e88e5; }
+.green { background: #e8f5e9; border-color: #43a047; color: #2e7d32; }
+.red { background: #ffebee; border-color: #e53935; color: #c62828; }
+
+/* Card hover effect */
+.E1234567Q:hover, .G1234567R:hover, .I1234567S:hover, .K1234567T:hover, .M1234567U:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Card title text */
+.F1234567X, .H1234567Y, .J1234567W, .L1234567V, .O1234567P {
+  margin: 0;
+}
+
+/* Back button */
+.P1234567Q {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.P1234567Q:hover {
+  background: linear-gradient(45deg, #5a0eb3, #1f65ea);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .D1234567M {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .A1234567Z {
+      flex-direction: column;
+  }
+  .B1234567N {
+      margin: 20px;
+  }
+  .D1234567M {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}

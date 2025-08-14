@@ -1,0 +1,397 @@
+/* Main container */
+.a00000000010001 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+/* Loading container */
+.a00000000010002 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+/* Loading spinner */
+.a00000000010003 {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #a33792;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error container */
+.a00000000010004 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Error message */
+.a00000000010005 {
+  color: #dc2626;
+  background-color: #fee2e2;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Login button */
+.a00000000010006 {
+  background-color: #a33792;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.a00000000010006:hover {
+  background-color: #8b2d7d;
+}
+
+/* No donations container */
+.a00000000010007 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.a00000000010008 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.a00000000010009 {
+  color: #4b5563;
+}
+
+/* Bill container */
+.a00000000010010 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Bill styling */
+.a00000000010011 {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+/* Bill header */
+.a00000000010012 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.a00000000010013 {
+  color: #2c3e50;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Organization details */
+.a00000000010014 {
+  margin-top: 1.5rem;
+}
+
+.a00000000010015 {
+  color: #3498db;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.a00000000010016 {
+  color: #4b5563;
+  margin: 0.25rem 0;
+}
+
+/* Bill info sections */
+.a00000000010017,
+.a00000000010021,
+.a00000000010023 {
+  margin: 1.5rem 0;
+}
+
+/* Bill row */
+.a00000000010018 {
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+/* Bill label */
+.a00000000010019 {
+  font-weight: 600;
+  width: 120px;
+  color: #4b5563;
+}
+
+/* Bill value */
+.a00000000010020 {
+  color: #1f2937;
+}
+
+/* Section title */
+.a00000000010022 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Bill footer */
+.a00000000010024 {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.a00000000010025 {
+  margin: 0.5rem 0;
+  color: #4b5563;
+}
+
+.a00000000010026 {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-top: 1.5rem;
+}
+
+/* Bill actions */
+.a00000000010027 {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Print button */
+.a00000000010028 {
+  background: linear-gradient(135deg, #a33792 0%, #5b2fd2 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.a00000000010028:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Back button */
+.a00000000010029 {
+  background-color: #6b7280;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.a00000000010029:hover {
+  background-color: #4b5563;
+}
+
+/* Main content */
+.a00000000010030 {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Content container */
+.a00000000010031 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Title */
+.a00000000010032 {
+  color: #2c3e50;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Donations list */
+.a00000000010033 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Donation card */
+.a00000000010034 {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.a00000000010034:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Donation details */
+.a00000000010035 {
+  flex: 1;
+}
+
+.a00000000010036 {
+  color: #1f2937;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.a00000000010037 {
+  color: #a33792;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.a00000000010038 {
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+/* Status */
+.a00000000010039 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.a00000000010039.paid {
+  color: #166534;
+}
+
+.a00000000010039.failed {
+  color: #dc2626;
+}
+
+.a00000000010039.pending {
+  color: #92400e;
+}
+
+.a00000000010040 {
+  color: #6b7280;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+/* Donation actions */
+.a00000000010041 {
+  margin-top: 1rem;
+}
+
+/* Generate receipt button */
+.a00000000010042 {
+  background-color: #5b2fd2;
+  color: white;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.a00000000010042:hover {
+  background-color: #4a26b8;
+}
+
+/* Back button */
+.a00000000010043 {
+  background-color: #6b7280;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.a00000000010043:hover {
+  background-color: #4b5563;
+}
+
+/* Footer - maintaining original classnames */
+/* .k1234567l890 {
+  background-color: #754483;
+  color: #cbd5e0;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.l2345678m901 {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+} */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .a00000000010030 {
+    padding: 1rem;
+  }
+  
+  .a00000000010033 {
+    grid-template-columns: 1fr;
+  }
+  
+  .a00000000010011 {
+    padding: 1.5rem;
+  }
+  
+  .a00000000010027 {
+    flex-direction: column;
+  }
+  
+  .a00000000010028,
+  .a00000000010029 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,104 @@
+/* ContributionPage.css */
+
+.a123456b7890 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+  }
+  
+  .b234567c8901 {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .c345678d9012 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .d456789e0123 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .e567890f1234 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .f678901g2345 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .f678901g2345:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .g789012h3456 {
+    background-color: #8734dbc9;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .h890123i4567 {
+    width: 30px;
+    height: 30px;
+    stroke: white;
+  }
+  
+  .i901234j5678 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .j012345k6789 {
+    color: #7f8c8d;
+    margin: 0;
+  }
+  
+  .k123456l7890 {
+    background-color: #754483;
+    color: #cbd5e0;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .l234567m8901 {
+    color: #cbd5e0;
+    margin: 0;
+    font-size: 0.875rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .b234567c8901 {
+      padding: 1rem;
+    }
+    
+    .e567890f1234 {
+      grid-template-columns: 1fr;
+    }
+  }

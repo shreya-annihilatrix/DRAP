@@ -1,0 +1,218 @@
+/* Main container */
+.a00000000000101 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+/* Main content */
+.a00000000000102 {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Content container */
+.a00000000000103 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Title */
+.a00000000000104 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Loading container */
+.a00000000000109 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+/* Loading spinner */
+.a00000000000110 {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #a33792;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error container */
+.a00000000000111 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  text-align: center;
+}
+
+.a00000000000111 p {
+  color: #dc2626;
+  margin-bottom: 1rem;
+}
+
+/* Try again button */
+.a00000000000112 {
+  background-color: #a33792;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.a00000000000112:hover {
+  background-color: #8b2d7d;
+}
+
+/* Empty state */
+.a00000000000113 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  text-align: center;
+  color: #4b5563;
+}
+
+/* Incidents container */
+.a00000000000114 {
+  margin-top: 2rem;
+}
+
+/* Incidents grid */
+.a00000000000115 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Incident card */
+.a00000000000116 {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.a00000000000116:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Incident header */
+.a00000000000117 {
+  margin-bottom: 1rem;
+}
+
+/* Location */
+.a00000000000118 {
+  color: #1f2937;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Incident details */
+.a00000000000119 {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+/* Detail label */
+.a00000000000120 {
+  font-weight: 600;
+  color: #4b5563;
+  margin-right: 0.5rem;
+  min-width: 70px;
+}
+
+/* Status badges */
+.a00000000000121 {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.a00000000000105 { /* Pending */
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.a00000000000106 { /* Verified */
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.a00000000000107 { /* Deleted */
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.a00000000000108 { /* Completed */
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+/* Description */
+.a00000000000122 {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
+
+.a00000000000123 {
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+/* Footer - maintaining original classnames */
+/* .k1234567l890 {
+  background-color: #754483;
+  color: #cbd5e0;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.l2345678m901 {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+} */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .a00000000000102 {
+    padding: 1rem;
+  }
+  
+  .a00000000000104 {
+    font-size: 1.5rem;
+  }
+  
+  .a00000000000115 {
+    grid-template-columns: 1fr;
+  }
+}

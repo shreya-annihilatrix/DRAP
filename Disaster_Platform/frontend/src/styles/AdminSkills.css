@@ -1,0 +1,101 @@
+/* AdminAddSkill.css */
+
+/* 
+  Container: We make a flex container with NO wrapping 
+  so the sidebar stays on the left and main content on the right 
+*/
+.c0ffee {
+  @apply flex flex-nowrap h-screen bg-gray-100;
+}
+
+/* Sidebar (Left Panel) */
+.deadbe {
+  @apply w-64 bg-gray-800 text-white p-6 flex flex-col space-y-4;
+  /* 
+    The key is NOT to have any wrapping or full-width 
+    so it remains a side panel 
+  */
+  flex-shrink: 0; /* ensures the sidebar won't shrink in small screens */
+  border-right: 1px solid #4b5563;
+}
+
+/* Sidebar Title */
+.badc0d {
+  @apply text-2xl font-bold mb-4;
+}
+
+/* Sidebar Buttons */
+.facebe {
+  @apply bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded transition duration-300 text-left;
+}
+
+/* Logout Button */
+.c0c0c0 {
+  @apply bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded transition duration-300;
+}
+
+/* Main Content (Right Panel) */
+.bada55 {
+  @apply flex-1 p-6 overflow-y-auto;
+  /* 
+    flex-1 ensures it takes the remaining space 
+    so it sits to the right of the sidebar 
+  */
+}
+
+/* Page Title */
+.aff123 {
+  @apply text-2xl font-bold mb-4;
+}
+
+/* Add Skill Section (Input + Button) */
+.def456 {
+  @apply flex items-center space-x-3 mb-6 border-b-2 pb-4 border-gray-300;
+}
+
+/* Inputs */
+.ii2233 {
+  @apply border border-gray-300 p-2 rounded w-full;
+}
+
+/* Add Skill Button */
+.btnadd {
+  @apply bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300;
+}
+
+/* Table */
+.tablexx {
+  @apply w-full table-auto border-collapse mt-4;
+}
+
+/* Table Head Cells */
+.thcell {
+  @apply border border-gray-300 p-2 bg-gray-100 font-semibold;
+}
+
+/* Table Body Cells */
+.tdcell {
+  @apply border border-gray-300 p-2 align-top;
+}
+
+/* Delete Button */
+.btndel {
+  @apply bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded transition duration-300;
+}
+
+/* Example margin-right for spacing between Edit and Delete */
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .deadbe {
+    @apply w-48;
+  }
+  .c0ffee {
+    @apply flex-col; 
+    /* On smaller screens, you might let it stack if you prefer. 
+       Remove flex-col if you want to strictly keep the side panel always. */
+  }
+}

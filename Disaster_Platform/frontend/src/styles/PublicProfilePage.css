@@ -1,0 +1,222 @@
+/* Main container */
+.ab00000000000002 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+  }
+  
+  /* Loading text */
+  .ab00000000000001 {
+    padding: 2rem;
+    text-align: center;
+    color: #4b5563;
+  }
+  
+  /* Main content */
+  .ab00000000000003 {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Profile container */
+  .ab00000000000004 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  /* Profile header container */
+  .ab00000000000005 {
+    margin-bottom: 2rem;
+  }
+  
+  /* Profile title */
+  .ab00000000000006 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Message container */
+  .ab00000000000007 {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Error message */
+  .ab00000000000008 {
+    background-color: #fee2e2;
+    color: #dc2626;
+  }
+  
+  /* Success message */
+  .ab00000000000009 {
+    background-color: #dcfce7;
+    color: #166534;
+  }
+  
+  /* Profile photo section */
+  .ab00000000000010 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Photo container */
+  .ab00000000000011 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Profile image */
+  .ab00000000000012 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #a33792;
+  }
+  
+  /* Default photo container */
+  .ab00000000000013 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e9d5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #a33792;
+  }
+  
+  /* Default photo icon */
+  .ab00000000000014 {
+    width: 80px;
+    height: 80px;
+    color: #7e22ce;
+  }
+  
+  /* Photo upload container */
+  .ab00000000000015 {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  /* File input */
+  .ab00000000000017 {
+    display: none;
+  }
+  
+  /* File input label */
+  .ab00000000000018 {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #a33792;
+    color: white;
+    border: none;
+  }
+  
+  .ab00000000000018:hover {
+    background-color: #8b2d7d;
+  }
+  
+  /* Update photo button */
+  .ab00000000000019 {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #5b2fd2;
+    color: white;
+    border: none;
+  }
+  
+  .ab00000000000019:hover {
+    background-color: #4a26b8;
+  }
+  
+  /* Profile details container */
+  .ab00000000000020 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Detail row */
+  .ab00000000000021,
+  .ab00000000000024,
+  .ab00000000000027,
+  .ab00000000000030,
+  .ab00000000000033 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  /* Detail label */
+  .ab00000000000022,
+  .ab00000000000025,
+  .ab00000000000028,
+  .ab00000000000031,
+  .ab00000000000034 {
+    font-weight: 600;
+    color: #4b5563;
+  }
+  
+  /* Detail value */
+  .ab00000000000023,
+  .ab00000000000026,
+  .ab00000000000029,
+  .ab00000000000032,
+  .ab00000000000035 {
+    color: #1f2937;
+  }
+  
+  /* Footer */
+  .ab00000000000036 {
+    background-color: #754483;
+    color: #cbd5e0;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  /* Footer text */
+  .ab00000000000037 {
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .ab00000000000003 {
+      padding: 1rem;
+    }
+    
+    .ab00000000000004 {
+      padding: 1.5rem;
+    }
+    
+    .ab00000000000015 {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .ab00000000000019 {
+      width: 100%;
+    }
+  }

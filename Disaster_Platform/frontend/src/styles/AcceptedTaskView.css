@@ -1,0 +1,255 @@
+/* Main container */
+.a1234567b890123 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.a1234567b890127 {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.a1234567b890128 {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 2rem;
+}
+
+/* Loading state */
+.a1234567b890124 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #4e67c8;
+}
+
+.a1234567b890125 {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(78, 103, 200, 0.2);
+  border-radius: 50%;
+  border-top-color: #4e67c8;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Error state */
+.a1234567b890126 {
+  padding: 1.5rem;
+  background-color: #ffebee;
+  color: #c62828;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: 2rem;
+  border-left: 4px solid #c62828;
+}
+
+/* Header */
+.a1234567b890129 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/* No tasks state */
+.a1234567b890130 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.a1234567b890131 {
+  width: 48px;
+  height: 48px;
+  fill: #bdc3c7;
+  margin-bottom: 1rem;
+}
+
+/* Task card container */
+.a1234567b890132 {
+  margin-top: 1.5rem;
+}
+
+.a1234567b890133 {
+  border: 1px solid #e9ecef;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Task header */
+.a1234567b890134 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  background-color: #4e67c861;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.a1234567b890135 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.a1234567b890136 {
+  color: #7f8c8d;
+  font-size: 0.875rem;
+}
+
+/* Task description */
+.a1234567b890137 {
+  padding: 1.25rem 1.5rem;
+  margin: 0;
+  line-height: 1.6;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Details section */
+.a1234567b890138 {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.a1234567b890139 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.a1234567b890140 {
+  width: 20px;
+  height: 20px;
+  fill: #4e67c8;
+  margin-right: 0.75rem;
+}
+
+.a1234567b890138 h4 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Details content */
+.a1234567b890141 {
+  padding-left: 2rem;
+}
+
+.a1234567b890141 p {
+  margin: 0.5rem 0;
+}
+
+/* Map button */
+.a1234567b890142 {
+  display: flex;
+  align-items: center;
+  background-color: #4e67c8;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  transition: background-color 0.2s;
+}
+
+.a1234567b890142:hover {
+  background-color: #3a4f9e;
+}
+
+.a1234567b890143 {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 0.5rem;
+}
+
+/* Progress button */
+.a1234567b890144 {
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+}
+
+.a1234567b890145 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.a1234567b890145:hover {
+  background-color: #218838;
+}
+
+.a1234567b890146 {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  margin-right: 0.5rem;
+}
+
+/* Footer */
+.ft1234567890 {
+  padding: 1.5rem;
+  background-color: #4e67c861;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+  
+.cp1234567890 {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .a1234567b890127 {
+    padding: 1rem;
+  }
+  
+  .a1234567b890128 {
+    padding: 1rem;
+  }
+  
+  .a1234567b890134 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .a1234567b890141 {
+    padding-left: 0;
+  }
+  
+  .a1234567b890145 {
+    max-width: none;
+  }
+}

@@ -1,0 +1,15 @@
+.admin-home {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,118 @@
+/* IncidentReportPage.css */
+
+.a1234b567890 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+  }
+  
+  .b2345c678901 {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .c3456d789012 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .d4567e890123 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .e5678f901234 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .f6789g012345 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .f6789g012345:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .g7890h123456 {
+    background-color: #8734dbc9;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .h8901i234567 {
+    width: 30px;
+    height: 30px;
+    stroke: white;
+  }
+  
+  .i9012j345678 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .j0123k456789 {
+    color: #7f8c8d;
+    margin: 0;
+  }
+  
+  .k1234l567890 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .l2345m678901 {
+    font-size: 1.5rem;
+    color: #754483;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 0.5rem;
+  }
+  
+  .m3456n789012 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .n4567o890123 {
+    color: #95a5a6;
+    text-align: center;
+    padding: 2rem;
+    font-style: italic;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .b2345c678901 {
+      padding: 1rem;
+    }
+    
+    .e5678f901234 {
+      grid-template-columns: 1fr;
+    }
+  }

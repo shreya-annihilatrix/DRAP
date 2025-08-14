@@ -1,0 +1,172 @@
+/* Main container */
+.vl1234567890 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fa;
+  }
+  
+  /* Main content area */
+  .mn1234567890 {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Dashboard container - removed border and box-shadow */
+  .ct1234567890 {
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 2rem;
+  }
+  
+  /* Page title */
+  .tt1234567890 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    /* Removed border-bottom */
+  }
+  
+  /* Grid container for cards - modified for 3 cards */
+  .gd1234567890 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card styles */
+  .cd1234567890 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2e8f0;
+    cursor: pointer;
+    height: 100%;
+  }
+  
+  .cd1234567890:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon container */
+  .ic1234567890 {
+    width: 48px;
+    height: 48px;
+    background-color: #ebf8ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .ic1234567890 svg {
+    width: 24px;
+    height: 24px;
+    color: #3182ce;
+  }
+  
+  /* Text content */
+  .tx1234567890 {
+    flex-grow: 1;
+  }
+  
+  .tx1234567890 h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tx1234567890 p {
+    font-size: 0.875rem;
+    color: #718096;
+    margin-bottom: 1rem;
+  }
+  
+  /* Button styles */
+  .bt1234567890 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.625rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    font-size: 0.875rem;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  .bt1234567890:hover {
+    background-color: #2c5282;
+  }
+  
+  .bt1234567890 svg {
+    transition: transform 0.2s;
+  }
+  
+  .bt1234567890:hover svg {
+    transform: translateX(4px);
+  }
+  
+  /* Footer */
+  .ft1234567890 {
+    padding: 1.5rem;
+    background-color: #536cce61;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+}
+  
+.cp1234567890 {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+  
+  /* SVG icons general style */
+  .sv1234567890 {
+    width: 24px;
+    height: 24px;
+    color: #3182ce;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .gd1234567890 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mn1234567890 {
+      padding: 1rem;
+    }
+    
+    .ct1234567890 {
+      padding: 1rem;
+    }
+    
+    .gd1234567890 {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }

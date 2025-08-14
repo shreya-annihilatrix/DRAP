@@ -1,0 +1,128 @@
+/* NavBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.h2345678901 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #4361ee;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.t3456789012 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.n4567890123 {
+  flex: 1;
+  margin: 0 2rem;
+}
+
+.u5678901234 {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.l6789012345 {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.l6789012345:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.a7890123456 {
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.a7890123456::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.b8901234567 {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+width: fit-content;
+height: fit-content;
+}
+
+.b8901234567:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: white;
+}
+
+.s9012345678 {
+  font-size: 0.9rem;
+  font-weight: 200;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .u5678901234 {
+    gap: 0.25rem;
+  }
+  
+  .l6789012345 {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .t3456789012 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .h2345678901 {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  
+  .n4567890123 {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .u5678901234 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .b8901234567 {
+    margin-top: 0.5rem;
+  }
+}

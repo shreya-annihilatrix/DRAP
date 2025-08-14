@@ -1,0 +1,497 @@
+/* IncidentReportsPage.css */
+.ab123456789045 {
+  display: flex;
+  min-height: 100vh;
+}
+
+.ab123456789046 {
+  flex: 1;
+  padding: 20px;
+  margin: 40px; /* Adjust based on sidebar width */
+}
+
+.ab123456789047 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+/* Success and Error Messages */
+.ab123456789048, .ab123456789049 {
+  padding: 12px 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ab123456789048 {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.ab123456789049 {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.ab123456789016 {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Filter Section */
+.ab123456789050 {
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.ab123456789051 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ab123456789052 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.ab123456789053 {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ab123456789053 label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.ab123456789054, .ab123456789055 {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.ab123456789056 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ab123456789057, .ab123456789058 {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.ab123456789057 {
+  background-color: #4a6fdc;
+  color: white;
+}
+
+.ab123456789057:hover {
+  background-color: #3a5bc0;
+}
+
+.ab123456789058 {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.ab123456789058:hover {
+  background-color: #e0e0e0;
+}
+
+/* Loading State */
+.ab123456789059 {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+
+/* No Incidents Message */
+.ab123456789072 {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  color: #666;
+}
+
+/* Incident List */
+.ab123456789060 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ab123456789061 {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.ab123456789062 {
+  padding: 15px;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.ab123456789062 h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.ab123456789063 {
+  display: flex;
+  gap: 10px;
+}
+
+.ab123456789064, .ab123456789065 {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Severity indicators */
+.ab123456789036 {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.ab123456789037 {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.ab123456789038 {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.ab123456789039 {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.ab123456789040 {
+  background-color: #7f0000;
+  color: white;
+}
+
+/* Status indicators */
+.ab123456789041 {
+  background-color: #e8eaf6;
+  color: #3949ab;
+}
+
+.ab123456789042 {
+  background-color: #fff8e1;
+  color: #ff8f00;
+}
+
+.ab123456789043 {
+  background-color: #e0f2f1;
+  color: #00796b;
+}
+
+.ab123456789044 {
+  background-color: #eeeeee;
+  color: #616161;
+}
+
+.ab123456789066 {
+  padding: 15px;
+}
+
+.ab123456789067 {
+  margin-bottom: 10px;
+}
+
+.ab123456789068 {
+  margin-top: 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.ab123456789069 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0;
+}
+
+.ab123456789070 {
+  padding: 0 15px 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.ab123456789071 {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.ab123456789071:hover {
+  background-color: #d0d0d0;
+}
+
+/* Detail Modal */
+.ab123456789013, .ab123456789025 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.ab123456789014, .ab123456789026 {
+  background-color: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.ab123456789015, .ab123456789027 {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.ab123456789015 h3, .ab123456789027 h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.ab123456789017, .ab123456789028 {
+  padding: 20px;
+}
+
+.ab123456789018 {
+  margin-bottom: 25px;
+}
+
+.ab123456789019 {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.ab123456789020 {
+  font-weight: 500;
+  width: 150px;
+  color: #555;
+}
+
+.ab123456789021 {
+  flex: 1;
+  color: #333;
+}
+
+/* Severity levels in modal */
+.ab123456789022-1 {
+  color: #2e7d32;
+}
+
+.ab123456789022-2 {
+  color: #1565c0;
+}
+
+.ab123456789022-3 {
+  color: #e65100;
+}
+
+.ab123456789022-4 {
+  color: #c62828;
+}
+
+.ab123456789022-5 {
+  color: #7f0000;
+}
+
+/* Status in modal */
+.ab123456789023-0 {
+  color: #3949ab;
+}
+
+.ab123456789023-1 {
+  color: #ff8f00;
+}
+
+.ab123456789023-2 {
+  color: #00796b;
+}
+
+.ab123456789023-3 {
+  color: #616161;
+}
+
+.ab123456789024 {
+  margin-top: 20px;
+}
+
+.ab123456789024 h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.ab123456789012 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Response Modal Specific Styles */
+.ab123456789029 {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.ab123456789030 {
+  margin-bottom: 20px;
+}
+
+.ab123456789030 label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.ab123456789031, .ab123456789032 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.ab123456789032 {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.ab123456789033 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.ab123456789034, .ab123456789035 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.ab123456789035 {
+  background-color: #4a6fdc;
+  color: white;
+}
+
+.ab123456789035:hover {
+  background-color: #3a5bc0;
+}
+
+.ab123456789035:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.ab123456789034 {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.ab123456789034:hover {
+  background-color: #d0d0d0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .ab123456789046 {
+    margin-left: 0;
+    padding-top: 70px;
+  }
+  
+  .ab123456789052 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .ab123456789053 {
+    width: 100%;
+  }
+  
+  .ab123456789062 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .ab123456789063 {
+    margin-top: 10px;
+  }
+  
+  .ab123456789014, .ab123456789026 {
+    width: 95%;
+  }
+  
+  .ab123456789019 {
+    flex-direction: column;
+  }
+  
+  .ab123456789020 {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}

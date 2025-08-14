@@ -1,0 +1,143 @@
+/* Main container */
+.a01000000000001 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+  }
+  
+  /* Main content */
+  .a01000000000002 {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Profile container */
+  .a01000000000003 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Profile header */
+  .a01000000000004 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Title */
+  .a01000000000005 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Message container */
+  .a01000000000006 {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Error message */
+  .a01000000000007 {
+    background-color: #fee2e2;
+    color: #dc2626;
+  }
+  
+  /* Success message */
+  .a01000000000008 {
+    background-color: #dcfce7;
+    color: #166534;
+  }
+  
+  /* Form */
+  .a01000000000009 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Form field container */
+  .a01000000000010 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  /* Label */
+  .a01000000000011 {
+    font-weight: 600;
+    color: #4b5563;
+    font-size: 0.95rem;
+  }
+  
+  /* Input field */
+  .a01000000000012 {
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .a01000000000012:focus {
+    outline: none;
+    border-color: #a33792;
+    box-shadow: 0 0 0 3px rgba(163, 55, 146, 0.1);
+  }
+  
+  /* Submit button */
+  .a01000000000013 {
+    padding: 0.75rem 1.5rem;
+    background-color: #5b2fd2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .a01000000000013:hover {
+    background-color: #4a26b8;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .a01000000000002 {
+      padding: 1rem;
+    }
+    
+    .a01000000000003 {
+      padding: 1.5rem;
+    }
+    
+    .a01000000000005 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Footer (maintaining existing classnames) */
+  .k12345678l90 {
+    background-color: #754483;
+    color: #cbd5e0;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .l23456789m01 {
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }

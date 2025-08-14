@@ -1,0 +1,170 @@
+/* VolunteerTaskManagement.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.s123p4567 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.m123a4567 {
+  flex: 1;
+  padding: 2rem;
+}
+
+.d123i4567 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.t123l4567 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.g123r4567 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.c123a4567 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+  position: relative;
+  overflow: hidden;
+}
+
+.c123a4567:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.c123a4567::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: #4361ee;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.i123c4567 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.c123d4567 {
+  width: 40px;
+  height: 40px;
+  color: #4361ee;
+}
+
+.t123e4567 h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: auto;
+}
+
+.t123e4567 p {
+  color: #6c757d;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  margin-bottom: auto;
+
+}
+
+.b123u4567 {
+  margin-top: auto;
+  padding: 0.75rem 1.25rem;
+  background-color: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  align-self: flex-start;
+}
+
+
+
+.b123u4567:hover {
+  background-color: #3a4fd0;
+}
+
+.l123o4567 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  color: #6c757d;
+}
+
+/* Changed this class name to be unique */
+.s123w4567 {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #4361ee;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.f123o4567 {
+  padding: 1.5rem;
+  background-color: #536cce61;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.p123r4567 {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .m123a4567 {
+    padding: 1rem;
+  }
+  
+  .g123r4567 {
+    grid-template-columns: 1fr;
+  }
+  
+  .t123l4567 {
+    font-size: 1.75rem;
+  }
+}

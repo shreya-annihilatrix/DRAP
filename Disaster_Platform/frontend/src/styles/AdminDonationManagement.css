@@ -1,0 +1,95 @@
+/* Container for the entire page */
+.A12345678Z {
+    display: flex;
+    background: #f4f4f4;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Main content section */
+.B12345678N {
+    flex: 1;
+    padding: 30px;
+    background: #ffffff;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Page Title */
+.C12345678L {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Grid layout for cards */
+.D12345678M {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Card style */
+.E12345678Q, .G12345678R, .I12345678S, .K12345678T {
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid;
+}
+
+/* Color themes */
+.blue { background: #e3f2fd; border-color: #1e88e5; color: #1e88e5; }
+.green { background: #e8f5e9; border-color: #43a047; color: #2e7d32; }
+.red { background: #ffebee; border-color: #e53935; color: #c62828; }
+
+/* Card hover effect */
+.E12345678Q:hover, .G12345678R:hover, .I12345678S:hover, .K12345678T:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Card title text */
+.F12345678X, .H12345678Y, .J12345678W, .L12345678V {
+    margin: 0;
+}
+
+/* Back button */
+.M12345678Q {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.M12345678Q:hover {
+    background: linear-gradient(45deg, #5a0eb3, #1f65ea);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .D12345678M {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .A12345678Z {
+        flex-direction: column;
+    }
+    .B12345678N {
+        margin: 20px;
+    }
+    .D12345678M {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

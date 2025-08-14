@@ -1,0 +1,342 @@
+/* Main container */
+.a00000000100001 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+/* Loading container */
+.a00000000100002 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+/* Loading spinner */
+.a00000000100003 {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #a33792;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error container */
+.a00000000100004 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Error message */
+.a00000000100005 {
+  color: #dc2626;
+  background-color: #fee2e2;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Back button */
+.a00000000100006 {
+  background-color: #6b7280;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.a00000000100006:hover {
+  background-color: #4b5563;
+}
+
+/* Main content */
+.a00000000100007 {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Content container */
+.a00000000100008 {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Form wrapper */
+.a00000000100009 {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.a00000000100010 {
+  color: #2c3e50;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Campaign title */
+.a00000000100011 {
+  color: #4b5563;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Auth message */
+.a00000000100012 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.a00000000100013 {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+/* Login button */
+.a00000000100014 {
+  background-color: #a33792;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.a00000000100014:hover {
+  background-color: #8b2d7d;
+}
+
+/* Form group */
+.a00000000100015 {
+  margin-bottom: 1.5rem;
+}
+
+.a00000000100016 {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+/* Amount input */
+.a00000000100017 {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.a00000000100017:focus {
+  outline: none;
+  border-color: #a33792;
+}
+
+/* Quick amounts section */
+.a00000000100018 {
+  margin-bottom: 2rem;
+}
+
+.a00000000100019 {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Quick amount cards container */
+.a00000000100020 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Quick amount card */
+.a00000000100021 {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.a00000000100021:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border-color: #a33792;
+}
+
+
+
+/* Button container */
+.a00000000100022 {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Pay now button */
+.a00000000100023 {
+  background: linear-gradient(135deg, #a33792 0%, #5b2fd2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  flex: 1;
+}
+
+.a00000000100023:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Back button */
+.a00000000100024 {
+  background-color: #6b7280;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1;
+}
+
+.a00000000100024:hover {
+  background-color: #4b5563;
+}
+
+
+/* Selected amount card */
+.a00000000100025 {
+  background-color: #f3e8ff;
+  border-color: #a33792;
+  box-shadow: 0 4px 6px rgba(163, 55, 146, 0.1);
+}
+
+/* Amount value */
+.a00000000100026 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  transition: color 0.3s ease;
+}
+
+.a00000000100021:hover .a00000000100026 {
+  color: #a33792;
+}
+
+/* Badge for special amounts */
+.a00000000100027 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #a33792;
+  color: white;
+  font-size: 0.65rem;
+  padding: 0.25rem 0.5rem;
+  border-bottom-left-radius: 8px;
+  font-weight: 500;
+}
+
+/* Add this animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+
+
+/* Footer - maintaining original classnames */
+.k1234567l890 {
+  background-color: #754483;
+  color: #cbd5e0;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.l2345678m901 {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+/* Responsive styles */
+
+
+@media (max-width: 768px) {
+  .a00000000100020 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .a00000000100021 {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .a00000000100020 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .a00000000100007 {
+    padding: 1rem;
+  }
+  
+  .a00000000100009 {
+    padding: 1.5rem;
+  }
+  
+  .a00000000100020 {
+    justify-content: space-between;
+  }
+  
+  .a00000000100021 {
+    flex: 1;
+    min-width: calc(50% - 0.5rem);
+  }
+  
+  .a00000000100022 {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,285 @@
+/* Main layout with sidebar */
+.a1432563b7452 {
+    display: flex;
+    background: url('../images/image8.webp') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Main content area */
+  .a1432563b7453 {
+    flex: 1;
+    padding: 30px;
+    background: rgba(68, 90, 84, 0.788);
+    overflow-y: auto;
+    min-height: 100vh;
+  }
+  
+  /* Task progress container */
+  .a1432563b7454 {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Page title */
+  .a1432563b7455 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  /* Filters container */
+  .a1432563b7456 {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Filter row */
+  .a1432563b7457 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  /* Filter group */
+  .a1432563b7458 {
+    flex-grow: 1;
+    min-width: 200px;
+  }
+  
+  /* Button container */
+  .a1432563b7459 {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  /* Filter button */
+  .a1432563b7460 {
+    background-color: #007bff;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  /* Reset button */
+  .a1432563b7461 {
+    background-color: #6c757d;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .a1432563b7460:hover, .a1432563b7461:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Loading indicator */
+  .a1432563b7462 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    color: #6c757d;
+  }
+  
+  /* Error message */
+  .a1432563b7463 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    color: #dc3545;
+  }
+  
+  /* Task progress list */
+  .a1432563b7464 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* No data message */
+  .a1432563b7465 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    color: #6c757d;
+  }
+  
+  /* Task card */
+  .a1432563b7466 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .a1432563b7466:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  }
+  
+  /* Task header */
+  .a1432563b7467 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Task title */
+  .a1432563b7468 h3 {
+    margin-bottom: 0;
+    color: #343a40;
+  }
+  
+  /* Status badge */
+  .a1432563b7469 {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  /* Completed status */
+  .a1432563b7470 {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  /* In progress status */
+  .a1432563b7471 {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  /* Progress bar container */
+  .a1432563b7472 {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Progress fill */
+  .a1432563b7473 {
+    background-color: #007bff;
+    height: 100%;
+    transition: width 0.5s ease;
+  }
+  
+  /* Progress text */
+  .a1432563b7474 {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  /* Task content */
+  .a1432563b7475 {
+    padding: 10px;
+  }
+  
+  /* Task details base */
+  .a1432563b7485 {
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+  }
+  
+  /* Transportation task type */
+  .a1432563b7486 {
+    border-left: 4px solid #17a2b8;
+  }
+  
+  /* Food service task type */
+  .a1432563b7487 {
+    border-left: 4px solid #28a745;
+  }
+  
+  /* Rescue task type */
+  .a1432563b7488 {
+    border-left: 4px solid #dc3545;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .a1432563b7454 {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .a1432563b7453 {
+      padding: 15px 10px;
+    }
+    
+    .a1432563b7457 {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .a1432563b7458 {
+      min-width: 100%;
+    }
+    
+    .a1432563b7459 {
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .a1432563b7460, .a1432563b7461 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .a1432563b7467 {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    
+    .a1432563b7472 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .a1432563b7453 {
+      padding: 10px 5px;
+    }
+    
+    .a1432563b7454 {
+      padding: 10px;
+    }
+    
+    .a1432563b7455 {
+      font-size: 20px;
+    }
+    
+    .a1432563b7456 {
+      padding: 10px;
+    }
+    
+    .a1432563b7475, .a1432563b7485 {
+      padding: 10px;
+    }
+  }

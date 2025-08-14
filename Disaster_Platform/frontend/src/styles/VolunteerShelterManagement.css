@@ -1,0 +1,248 @@
+/* ShelterManagement.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.s3456789012 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.m4567890123 {
+  flex: 1;
+  padding: 2rem;
+}
+
+.d5678901234 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.t6789012345 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.p7890123456 {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+.g0123456789 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.c1234567890 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+  position: relative;
+  overflow: hidden;
+}
+
+.c1234567890:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.c1234567890::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: #4361ee;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.i2345678901 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.c2345678901 {
+  width: 40px;
+  height: 40px;
+  color: #4361ee;
+}
+
+.b3456789012 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4361ee;
+}
+
+.t4567890123 h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.t4567890123 p {
+  margin: 0;
+  color: #6c757d;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.v5678901234 {
+    margin-top: auto;
+    padding: 0.75rem 1.25rem;
+  background-color: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  align-self: flex-start;
+}
+
+.v5678901234:hover {
+  background-color: #3a4fd0;
+}
+
+.l8901234567 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  color: #6c757d;
+}
+
+.o9012345678 {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #4361ee;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.q6789012345 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.h7890123456 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.a8901234567 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.e9012345678 {
+  display: flex;
+  gap: 1rem;
+}
+
+.r0123456789 {
+  padding-top: 0.25rem;
+}
+
+.b1234567890 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #4361ee;
+}
+
+.y5678901234 {
+  background-color: #f59e0b;
+}
+
+.g6789012345 {
+  background-color: #10b981;
+}
+
+.f2345678901 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.j3456789012 {
+  margin: 0 0 0.25rem 0;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.t4567890123 {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.f7890123456 {
+  padding: 1.5rem;
+  background-color: #536cce61;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.c8901234567 {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .m4567890123 {
+    padding: 1rem;
+  }
+  
+  .g0123456789 {
+    grid-template-columns: 1fr;
+  }
+  
+  .t6789012345 {
+    font-size: 1.75rem;
+  }
+  
+  .p7890123456 {
+    font-size: 1rem;
+  }
+}

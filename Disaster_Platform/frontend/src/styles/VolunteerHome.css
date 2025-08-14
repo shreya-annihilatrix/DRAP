@@ -1,0 +1,166 @@
+/* VolunteerHome.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Main container */
+.ab123456789 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header styles */
+.cd234567890 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #4361ee;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 30px;
+}
+
+.ef345678901 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Logout button */
+.gh456789012 {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding-left: 20px;
+  margin-left: 1000px;
+  width: max-content;
+  height: max-content;
+
+}
+
+.gh456789012:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: white;
+}
+
+.ij567890123 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Main content area */
+.kl678901234 {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Card grid */
+.mn789012345 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation cards */
+.op890123456 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.op890123456:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Active card state */
+.qr901234567 {
+  background-color: #f0f4ff;
+  border-left: 4px solid #4361ee;
+}
+
+/* Icon container */
+.st012345678 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #eef2ff;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.op890123456:hover .st012345678 {
+  background-color: #4361ee;
+  color: white;
+}
+
+/* SVG icons */
+.uv123456789 {
+  width: 30px;
+  height: 30px;
+  color: #4361ee;
+  transition: all 0.3s ease;
+}
+
+.op890123456:hover .uv123456789 {
+  color: white;
+}
+
+/* Label text */
+.wx234567890 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2d3748;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Footer */
+.yz345678901 {
+  padding: 1.5rem;
+  background-color: #536cce61;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.ab456789012 {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cd234567890 {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .mn789012345 {
+    grid-template-columns: 1fr;
+  }
+  
+  .kl678901234 {
+    padding: 1rem;
+  }
+}

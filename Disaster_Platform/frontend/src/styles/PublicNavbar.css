@@ -1,0 +1,135 @@
+/* PublicNavbar.css */
+
+.a123b4567890 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .b234c5678901 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    background: linear-gradient(135deg, #a33792 0%, #5b2fd2 100%);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .c345d6789012 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .d456e7890123 {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: max-content;
+    height: max-content;
+  }
+  
+  .d456e7890123:hover {
+    background-color: white;
+    color: #2c3e50;
+  }
+  
+  .e567f8901234 {
+    font-weight: 500;
+  }
+  
+  .f678g9012345 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    
+  }
+  
+  .g789h0123456 {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
+  
+  .h890i1234567 {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .h890i1234567:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  .i901j2345678 {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 500;
+  }
+  
+  .j012k3456789 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+  }
+  
+  .k123l4567890 {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+  }
+  
+  .l234m5678901 {
+    font-size: 0.95rem;
+  }
+  
+  .m345n6789012 {
+    background-color: #754483;
+    color: #cbd5e0;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .n456o7890123 {
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .b234c5678901 {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .f678g9012345 {
+      margin-left: 0;
+      margin-top: 1rem;
+      width: 100%;
+    }
+    
+    .g789h0123456 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .d456e7890123 {
+      margin-top: 1rem;
+    }
+  }

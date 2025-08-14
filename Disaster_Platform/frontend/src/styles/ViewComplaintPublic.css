@@ -1,0 +1,390 @@
+/* Main container */
+.a00001000000005 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+  }
+  
+  /* Loading container */
+  .a00001000000006 {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Title */
+  .a00001000000007 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Loading spinner */
+  .a00001000000008 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+  }
+  
+  .a00001000000009 {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid #a33792;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Error message */
+  .a00001000000010 {
+    background-color: #fee2e2;
+    color: #dc2626;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Back button */
+  .a00001000000011 {
+    background-color: #6b7280;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .a00001000000011:hover {
+    background-color: #4b5563;
+  }
+  
+  /* Empty state */
+  .a00001000000012 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    text-align: center;
+    color: #4b5563;
+  }
+  
+  .a00001000000013 {
+    width: 60px;
+    height: 60px;
+    color: #a33792;
+    margin-bottom: 1rem;
+  }
+  
+  /* Submit complaint button */
+  .a00001000000014 {
+    background-color: #a33792;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+  }
+  
+  .a00001000000014:hover {
+    background-color: #8b2d7d;
+  }
+  
+  /* Complaints grid */
+  .a00001000000015 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Complaint card */
+  .a00001000000016 {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .a00001000000016:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Complaint header */
+  .a00001000000017 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Complaint ID */
+  .a00001000000018 {
+    font-weight: 600;
+    color: #6b7280;
+  }
+  
+  /* Status badges */
+  .a00001000000019 {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  
+  .a00001000000001 { /* Pending */
+    background-color: #fef3c7;
+    color: #92400e;
+  }
+  
+  .a00001000000002 { /* Under Review */
+    background-color: #dbeafe;
+    color: #1e40af;
+  }
+  
+  .a00001000000003 { /* Resolved */
+    background-color: #dcfce7;
+    color: #166534;
+  }
+  
+  .a00001000000004 { /* Dismissed */
+    background-color: #f3f4f6;
+    color: #4b5563;
+  }
+  
+  /* Complaint content */
+  .a00001000000020 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .a00001000000021 {
+    font-size: 1.25rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .a00001000000022 {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+  }
+  
+  .a00001000000023 {
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  
+  /* View details button */
+  .a00001000000024 {
+    background-color: #5b2fd2;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .a00001000000024:hover {
+    background-color: #4a26b8;
+  }
+  
+  /* Button container */
+  .a00001000000025 {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  /* Modal overlay */
+  .a00001000000026 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Modal container */
+  .a00001000000027 {
+    background: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Modal header */
+  .a00001000000028 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .a00001000000028 h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #1f2937;
+  }
+  
+  /* Close button */
+  .a00001000000029 {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6b7280;
+    padding: 0.5rem;
+  }
+  
+  .a00001000000029:hover {
+    color: #1f2937;
+  }
+  
+  /* Modal content */
+  .a00001000000030 {
+    padding: 1.5rem;
+  }
+  
+  /* ID and status row */
+  .a00001000000031 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .a00001000000032,
+  .a00001000000035 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Detail label */
+  .a00001000000033 {
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Detail value */
+  .a00001000000034 {
+    color: #1f2937;
+  }
+  
+  /* Detail row */
+  .a00001000000036 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Description text */
+  .a00001000000037 {
+    margin-top: 0.5rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  
+  /* Date row */
+  .a00001000000038 {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Admin comments */
+  .a00001000000039 {
+    background-color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .a00001000000040 {
+    margin-top: 0.5rem;
+    color: #1f2937;
+    line-height: 1.6;
+  }
+  
+  /* Modal footer */
+  .a00001000000041 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  /* Close modal button */
+  .a00001000000042 {
+    background-color: #5b2fd2;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .a00001000000042:hover {
+    background-color: #4a26b8;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .a00001000000006 {
+      padding: 1rem;
+    }
+    
+    .a00001000000015 {
+      grid-template-columns: 1fr;
+    }
+    
+    .a00001000000025 {
+      flex-direction: column;
+    }
+    
+    .a00001000000038 {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  
+  /* Footer - maintaining original classnames */
+  .ft1234567890 {
+    background-color: #754483;
+    color: #cbd5e0;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .cp1234567890 {
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }

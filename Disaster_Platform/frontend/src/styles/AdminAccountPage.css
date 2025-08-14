@@ -1,0 +1,72 @@
+/* Container for the entire page */
+.X9Y8Z7 {
+    display: flex;
+    background: #f4f4f4;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main content card */
+  .W6V5U4 {
+    flex: 1;
+    padding: 30px;
+    background: #ffffff;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  /* Page header */
+  .T3S2R1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Grid for card buttons */
+  .G1H2I3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Card style for each option */
+  .M4N5O6 {
+    background: linear-gradient(45deg, #5ff8ff, #287579);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .M4N5O6:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #50dfff, #2374b2);
+  }
+  
+  /* Card header inside button */
+  .P7Q8R9 {
+    margin: 0;
+  }
+  
+  /* Back button with gradient */
+  .K4J3I2 {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .K4J3I2:hover {
+    background: linear-gradient(45deg, #5a0eb3, #1f65ea);
+  }
+  

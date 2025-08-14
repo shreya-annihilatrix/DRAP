@@ -1,0 +1,273 @@
+/* Main container */
+.a67451b321456 {
+  display: flex;
+  background: url('../images/image8.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main content area */
+.a67451b321457 {
+  flex: 1;
+  padding: 30px;
+  background: rgba(68, 90, 84, 0.788);
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+/* Content wrapper */
+.a67451b321458 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title */
+.a67451b321459 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Task filter container */
+.a67451b321460 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.a67451b321460 label {
+  font-weight: 500;
+  color: #34495e;
+}
+
+.a67451b321460 select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* Loading indicator */
+.a67451b321461 {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+/* Status classes */
+.a67451b321462 {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+.a67451b321463 {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.a67451b321464 {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.a67451b321465 {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.a67451b321466 {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+/* Task details container */
+.a67451b321467 {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #3498db;
+}
+
+/* No tasks message */
+.a67451b321468 {
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+/* Tasks list container */
+.a67451b321469 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Individual task card */
+.a67451b321470 {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.a67451b321470:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Task card header */
+.a67451b321471 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+}
+
+.a67451b321471 h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Task status badge */
+.a67451b321472 {
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Task content container */
+.a67451b321473 {
+  padding: 15px;
+}
+
+/* Task description */
+.a67451b321474 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+/* Incident details section */
+.a67451b321475 {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: rgba(52, 152, 219, 0.1);
+  border-radius: 6px;
+}
+
+.a67451b321475 h4, .a67451b321476 h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+/* Volunteer details section */
+.a67451b321476 {
+  padding: 15px;
+  background-color: rgba(46, 204, 113, 0.1);
+  border-radius: 6px;
+}
+
+/* Alert messages */
+.alert {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .a67451b321469 {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .a67451b321458 {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .a67451b321457 {
+    padding: 15px 10px;
+  }
+  
+  .a67451b321469 {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  
+  .a67451b321459 {
+    font-size: 24px;
+  }
+  
+  .a67451b321471 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .a67451b321472 {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .a67451b321457 {
+    padding: 10px 5px;
+  }
+  
+  .a67451b321458 {
+    padding: 10px;
+  }
+  
+  .a67451b321459 {
+    font-size: 20px;
+  }
+  
+  .a67451b321460 {
+    padding: 10px;
+  }
+  
+  .a67451b321473 {
+    padding: 10px;
+  }
+  
+  .a67451b321475, .a67451b321476, .a67451b321467 {
+    padding: 10px;
+  }
+}

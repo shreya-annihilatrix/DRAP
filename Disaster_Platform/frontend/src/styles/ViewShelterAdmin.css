@@ -1,0 +1,232 @@
+/* Main container */
+.a1b2345678901 {
+  display: flex;
+  background: url('../images/image8.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main content area */
+.a2b3456789012 {
+  flex: 1;
+  padding: 30px;
+  background: rgba(68, 90, 84, 0.788);
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+/* Content wrapper */
+.a3b4567890123 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title */
+.a4b5678901234 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Table styles */
+.table-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.a5b6789012345 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.a5b6789012345 th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.a5b6789012345 td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.a5b6789012345 tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Volunteer status text */
+.a6b7890123456 {
+  color: red;
+  font-weight: bold;
+}
+
+/* View Map button */
+.a7b8901234567 {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.a7b8901234567:hover {
+  background-color: #27ae60;
+}
+
+/* Delete button */
+.a8b9012345678 {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.a8b9012345678:hover {
+  background-color: #c0392b;
+}
+
+/* Map overlay */
+.a9b0123456789 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Map container */
+.b1c2345678901 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 200vh;
+  max-width: 600px;
+}
+
+/* Back button */
+.b2c3456789012 {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.b2c3456789012:hover {
+  background-color: #2980b9;
+}
+
+/* Volunteer info container */
+.volunteer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .a3b4567890123 {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .a2b3456789012 {
+    padding: 15px 10px;
+  }
+  
+  .a4b5678901234 {
+    font-size: 24px;
+  }
+  
+  .a5b6789012345 thead {
+    display: none;
+  }
+  
+  .a5b6789012345 tr {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .a5b6789012345 td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: right;
+  }
+  
+  .a5b6789012345 td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .a5b6789012345 td:last-child {
+    border-bottom: 0;
+  }
+  
+  .b1c2345678901 {
+    padding: 15px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .a2b3456789012 {
+    padding: 10px 5px;
+  }
+  
+  .a3b4567890123 {
+    padding: 10px;
+  }
+}
+.status-no-active {
+  color: gray;
+}
+
+.status-waiting {
+  color: orange;
+}
+
+.status-approved {
+  color: green;
+}
+
+.status-rejected {
+  color: red;
+}
+
+.status-completed {
+  color: blue;
+}

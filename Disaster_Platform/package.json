@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.5",
+    "create-react-app": "^5.0.1"
+  }
+}

@@ -1,0 +1,201 @@
+/* Main container */
+.a123b45678901 {
+  display: flex;
+  background: url('../images/image8.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main content area */
+.a234b56789012 {
+  flex: 1;
+  padding: 30px;
+  background: rgba(68, 90, 84, 0.788);
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+/* Content wrapper */
+.a345b67890123 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title */
+.a456b78901234 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Form styles */
+.a567b89012345 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.a567b89012345 input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.a567b89012345 button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.a567b89012345 button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.a567b89012345 button:hover:not(:disabled) {
+  background-color: #27ae60;
+}
+
+/* Existing tasks heading */
+.a678b90123456 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+/* Task list container */
+.a789b01234567 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Individual task item - Modified for button alignment */
+.a890b12345678 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Changed from center to flex-start */
+  padding: 12px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  position: relative; /* Added for button positioning */
+}
+
+.a890b12345678:hover {
+  transform: translateX(5px);
+}
+
+/* Delete button - Fixed alignment */
+.a901b23456789 {
+  background-color: #511f1c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto; /* Changed from 200px to auto */
+  position: absolute; /* Changed from relative to absolute */
+  right: 12px; /* Positions from right */
+  top: 50%; /* Centers vertically */
+  transform: translateY(-50%); /* Perfect vertical centering */
+  margin-top: 0; /* Removed previous margin */
+}
+
+.a901b23456789:hover {
+  background-color: #c0392b;
+}
+
+/* No tasks message */
+.a012b34567890 {
+  color: #7f8c8d;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Alert messages */
+.alert {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .a345b67890123 {
+    padding: 15px;
+  }
+
+  .a567b89012345 {
+    flex-direction: column;
+  }
+
+  .a567b89012345 button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .a234b56789012 {
+    padding: 15px 10px;
+  }
+
+  .a456b78901234 {
+    font-size: 24px;
+  }
+
+  .a890b12345678 {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 50px; /* Added space for absolute button */
+  }
+
+  .a901b23456789 {
+    position: relative; /* Revert to relative on mobile */
+    right: auto;
+    top: auto;
+    transform: none;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .a234b56789012 {
+    padding: 10px 5px;
+  }
+
+  .a345b67890123 {
+    padding: 10px;
+  }
+
+  .a456b78901234 {
+    font-size: 20px;
+  }
+}

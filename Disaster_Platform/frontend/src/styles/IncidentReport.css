@@ -1,0 +1,253 @@
+/* Main container */
+.az12345678901234 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+/* Main content */
+.az12345678901235 {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Content container */
+.az12345678901236 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Title */
+.az12345678901237 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Subtitle */
+.az12345678901238 {
+  color: #4b5563;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Location loading indicator */
+.az12345678901239 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f0f9ff;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: #0369a1;
+  font-weight: 500;
+}
+
+/* Location error message */
+.az12345678901241 {
+  padding: 1rem;
+  background-color: #fee2e2;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: #dc2626;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Form */
+.az12345678901242 {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Map section */
+.az12345678901243 {
+  margin-bottom: 2rem;
+}
+
+/* Form label */
+.az12345678901244 {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+/* Search box */
+.az12345678901245 {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.az12345678901245:focus {
+  outline: none;
+  border-color: #a33792;
+  box-shadow: 0 0 0 3px rgba(163, 55, 146, 0.1);
+}
+
+/* Map container */
+.az12345678901246 {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+/* Form fields container */
+.az12345678901247 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* Form group */
+/* .az12345678901248 {
+  margin-bottom: 1rem;
+} */
+
+/* Input fields */
+.az12345678901249 {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.az12345678901249:focus {
+  outline: none;
+  border-color: #a33792;
+  box-shadow: 0 0 0 3px rgba(163, 55, 146, 0.1);
+}
+
+/* Textarea */
+.az12345678901250 {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  font-size: 1rem;
+  min-height: 120px;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.az12345678901250:focus {
+  outline: none;
+  border-color: #a33792;
+  box-shadow: 0 0 0 3px rgba(163, 55, 146, 0.1);
+}
+
+/* Submit button */
+.az12345678901251 {
+  background: linear-gradient(135deg, #a33792 0%, #5b2fd2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.az12345678901251:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.az12345678901251:active {
+  transform: translateY(0);
+}
+
+.az12345678901251:disabled {
+  background: linear-gradient(135deg, #cccccc 0%, #999999 100%);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Loading spinner */
+.az12345678901240 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Footer - maintaining original classnames */
+.k1234567l890 {
+  background-color: #754483;
+  color: #cbd5e0;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.l2345678m901 {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .az12345678901235 {
+    padding: 1rem;
+  }
+  
+  .az12345678901242 {
+    padding: 1.5rem;
+  }
+  
+  .az12345678901247 {
+    grid-template-columns: 1fr;
+  }
+  
+  .az12345678901246 {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .az12345678901237 {
+    font-size: 1.5rem;
+  }
+  
+  .az12345678901238 {
+    font-size: 1rem;
+  }
+  
+  .az12345678901246 {
+    height: 250px;
+  }
+}
