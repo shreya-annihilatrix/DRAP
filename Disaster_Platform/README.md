@@ -54,7 +54,7 @@ Thanks for the clarification and folder structure screenshot. Based on your actu
 ### ▶️ Clone & Install
 
 ```bash
-git clone https://github.com/abinjosepullattu/Disaster_Platform.git
+git clone https://github.com/shreya-annihilatrix/DRAP.git
 cd Disaster_Platform
 
 # Install backend dependencies
